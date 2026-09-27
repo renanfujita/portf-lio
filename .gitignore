@@ -1,0 +1,29 @@
+# Ambientes virtuais Python
+.venv/
+venv/
+env/
+ENV/
+.env.example
+
+# Caches e arquivos compilados pelo Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Variáveis de ambiente e credenciais (Segurança)
+.env
+.env.local
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações locais de editores (opcional, mantém o repositório limpo)
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+
+# Diretório de build local da Vercel
+.vercel/

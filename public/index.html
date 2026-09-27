@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Renan Fujita | Backend & Data</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- Barra Superior Minimalista -->
+  <header class="header">
+    <div class="container header-container">
+      <span class="logo">Renan Yuki Fujita</span>
+      <div class="status-badge">
+        <span class="status-dot"></span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Secção Perfil / Resumo Técnico -->
+    <section class="profile-section">
+      <h1 class="profile-title">Analista de Dados</h1>
+      <p class="profile-bio">
+        Especializado em desenvolvimento backend com Python, arquiteturas de APIs com FastAPI, modelagem de bases de dados e construção de pipelines de dados.
+      </p>
+
+      <!-- Competências Chave (Escaneamento rápido para recrutadores) -->
+      <div class="skills-wrap">
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">FastAPI</span>
+        <span class="skill-tag">SQL & Relational DBs</span>
+        <span class="skill-tag">Power BI</span>
+        <span class="skill-tag">ETL & Pandas</span>
+      </div>
+
+      <!-- Links Diretos -->
+      <div class="actions-wrap">
+        <a href="https://github.com/renanfujita" target="_blank" rel="noopener noreferrer" class="link-btn">
+          GitHub ↗
+        </a>
+        <a href="https://www.linkedin.com/in/renanyukifujita/" target="_blank" rel="noopener noreferrer" class="link-btn">
+          LinkedIn ↗
+        </a>
+        <a href="/api/docs" target="_blank" class="link-btn secondary">
+          API Swagger ↗
+        </a>
+      </div>
+    </section>
+
+    <!-- Secção Repositórios em Tempo Real -->
+    <section class="projects-section">
+      <div class="section-title-wrap">
+        <h2 class="section-title">Repositórios & Projetos</h2>
+        <span id="projects-counter" class="counter-text">Sincronizando...</span>
+      </div>
+
+      <!-- Contentor onde o JavaScript injeta os repositórios reais -->
+      <div id="projects-grid" class="projects-grid">
+        <div class="card card-loading">
+          <div class="skeleton line-title"></div>
+          <div class="skeleton line-text"></div>
+        </div>
+        <div class="card card-loading">
+          <div class="skeleton line-title"></div>
+          <div class="skeleton line-text"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <span>Renan Fujita • São Paulo, SP</span>
+      <span class="footer-note">FastAPI Serverless Backend</span>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
